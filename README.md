@@ -13,14 +13,12 @@ Cara Install Laravel 8 (UI Auth) dan Github
 - Ketik command "composer require laravel/ui" dan tunggu selesai.
 - Ketik command "php artisan ui vue --auth" (Selain vue, ada bootstrap dan react)
 - Ketik command "npm install && npm run dev" dan tunggu selesai. Apabila terdapat error (baca dulu error kenapa) dan coba beberapa command berikut :
--- "composer update"
--- "npm update"
--- Google sendiri error kenapa
+- (Note) "composer update", "npm update", atau Google sendiri error kenapa
 - Bila sukses, buka kembali command prompt / git bash
 - Ketik command "git init"
 - Ketik command "git add ."
 - Ketik command "git commit -m "Initial commit"" (Tanpa tanda " di awal dan akhir command)
 - Buka https://github.com/, buat repository baru, lalu salin ssh/url pada git remote (contoh : git@github.com/suganda8/LXIV.git atau https://github.com/suganda8/LXIV.git)
 - Ketik command "git remote add origin (ssh/url)"
--- Bila menggunakan SSH (git@github.com) perlu menghubungkan membuat dan menghubungkan lokal SSH dengan Github
+- (Note) Bila menggunakan SSH (git@github.com) perlu menghubungkan membuat dan menghubungkan lokal SSH dengan Github
 - Ketik command "git push origin master" (Bila nama branch master sebelumnya tidak ada, akan otomatis membuat master, karena master ditulis pada git push)
